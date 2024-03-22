@@ -20,7 +20,7 @@ function ChannelLink(props: ChannelLinkProps) {
     <div className="group flex w-full">
       <a
         href={link}
-        target="_blank"
+        target={img == "li" ? "_blank" : ""}
         className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
       >
         <div className="flex items-center space-x-5 flex-row align-middle">
@@ -87,11 +87,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col max-w-3xl m-auto">
       <div className="flex flex-row w-full items-start gap-8 px-6 py-8">
-        <a>home</a>
-        <a>work</a>
-        <a>volunteering</a>
-        <a>essays</a>
-        <a>achievements</a>
+        <a><b>home</b></a>
+        <a href="/work">work</a>
+        <a href="/volunteering">volunteering</a>
+        <a href="/essays">essays</a>
+        <a href="/achievements">achievements</a>
       </div>
       <h1 className="px-6 py-8 text-3xl font-medium">Bob Chen</h1>
       <div className="columns-2 sm:columns-3 gap-4 my-8 px-6">
@@ -184,7 +184,7 @@ export default function Home() {
         <ChannelLink
           img="we"
           name="Work Experiences"
-          link="/"
+          link="/work"
           site=""
         />
       </div>
@@ -192,21 +192,21 @@ export default function Home() {
         <ChannelLink
           img="oe"
           name="Other Experiences"
-          link="https://www.linkedin.com/in/3bobchen/"
+          link="/volunteering"
           site=""
         />
         <ChannelLink
           img="e"
           name="Essays"
-          link="https://www.linkedin.com/in/3bobchen/"
+          link="/essays"
           site=""
         />
       </div>
-      <div className="w-full px-6 pb-8 columns-2">
+      <div className="w-1/2 pl-6 pr-3 pb-8">
         <ChannelLink
           img="a"
-          name="Key Achievements"
-          link="https://www.linkedin.com/in/3bobchen/"
+          name="Achievements"
+          link="/achievements"
           site=""
         />
       </div>
