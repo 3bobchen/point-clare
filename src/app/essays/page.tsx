@@ -6,17 +6,19 @@ interface EssayLinkProps {
   link: string;
   name: string;
   subtitle: string;
+  tag: string;
 }
 
 function ChannelLink(props: EssayLinkProps) {
-  const {img, link, name, subtitle
+  const {img, link, name, subtitle, tag
   } = props;
   return (
     <div className="group flex w-full py-3">
       <a
         href={link}
-        className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between w-full"
+        className="relative border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between w-full"
       >
+        <div className="absolute bg-white text-gray-600 px-2 rounded-lg left-3 top-3">{tag}</div>
         {
           img == 1 ?
             <Image src="https://agsci.oregonstate.edu/sites/agscid7/files/files/artwork/2002-06sandgren.jpg" alt=""
@@ -79,24 +81,28 @@ export default function Page() {
           name="Packed, Stacked and Attacked"
           link="https://www.linkedin.com/in/3bobchen/"
           subtitle="The importance of administrative tribunal reform that learns from the past and sufficiently protects member independence"
+          tag="Law"
         />
         <ChannelLink
           img={2}
           name="Central Bank Digital Currencies"
           link="https://www.linkedin.com/in/3bobchen/"
           subtitle="The new balance between privacy and access in the digital economy"
+          tag="Computer Science"
         />
         <ChannelLink
           img={3}
           name="Could an artificially intelligent device practise as a barrister in NSW?"
           link="https://www.linkedin.com/in/3bobchen/"
           subtitle=""
+          tag="Law"
         />
         <ChannelLink
           img={4}
           name="I am, You are, We are Australian"
           link="https://www.linkedin.com/in/3bobchen/"
           subtitle="Indigenous settlement in a modern settler state"
+          tag="Law"
         />
       </div>
     </main>
