@@ -12,10 +12,11 @@ interface ChannelLinkProps {
   link: string;
   name: string;
   site: string;
+  action: string;
 }
 
 function ChannelLink(props: ChannelLinkProps) {
-  const {img, link, name, site} = props;
+  const {img, link, name, site, action} = props;
   return (
     <div className="group flex w-full">
       <a
@@ -73,10 +74,23 @@ function ChannelLink(props: ChannelLinkProps) {
         </div>
         <div
           className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-               stroke="currentColor" className="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
-          </svg>
+          {
+            action == "a" ?
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                   stroke="currentColor" className="w-6 h-6">
+                <path stroke-linecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+              </svg>
+              : null
+          }
+          {
+            action == "e" ?
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                   stroke="currentColor" className="w-6 h-6">
+                <path stroke-linecap="round" strokeLinejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"/>
+              </svg>
+              : null
+          }
         </div>
       </a>
     </div>
@@ -96,7 +110,7 @@ export default function Home() {
       <h1 className="px-6 py-8 text-3xl font-medium">Bob Chen</h1>
       <div className="columns-2 sm:columns-3 gap-4 my-8 px-6">
         <div className="relative h-40 mb-4">
-          <Image
+        <Image
             alt="My Software Development Society Team"
             src={DevSoc}
             fill
@@ -262,42 +276,76 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="w-full px-6 py-8 columns-2">
+      <h2 className="w-full px-6 pb-8 text-xl font-bold">Recent activity</h2>
+      <div className="w-full px-6 pb-8">
+        <ChannelLink
+          img=""
+          name="Packed, Stacked and Attacked"
+          link="/volunteering"
+          site="The importance of administrative tribunal reform that learns from the past and sufficiently protects member independence"
+          action="e"
+        />
+      </div>
+      <div className="w-full px-6 pb-8">
+        <ChannelLink
+          img=""
+          name="Central Bank Digital Currencies"
+          link="/volunteering"
+          site="The new balance between privacy and access in the digital economy"
+          action="e"
+        />
+      </div>
+      <div className="w-full px-6 pb-8">
+        <ChannelLink
+          img=""
+          name="Google Cloud Digital Leader"
+          link="/volunteering"
+          site=""
+          action="a"
+        />
+      </div>
+      <h2 className="w-full px-6 text-xl pt-3 pb-8 font-bold">Find out more</h2>
+      <div className="w-full px-6 pb-8 columns-2">
         <ChannelLink
           img="li"
           name="LinkedIn"
           link="https://www.linkedin.com/in/3bobchen/"
           site="@3bobchen"
+          action="a"
         />
         <ChannelLink
           img="we"
           name="Work Experiences"
           link="/work"
           site=""
+          action="a"
         />
       </div>
       <div className="w-full px-6 pb-8 columns-2">
         <ChannelLink
           img="oe"
           name="Other Experiences"
-            link="/volunteering"
-            site=""
-          />
-          <ChannelLink
-            img="e"
-            name="Essays"
-            link="/essays"
-            site=""
-          />
-        </div>
-        <div className="w-1/2 pl-6 pr-3 pb-8">
-          <ChannelLink
-            img="a"
-            name="Achievements"
-            link="/achievements"
-            site=""
-          />
-        </div>
+          link="/volunteering"
+          site=""
+          action="a"
+        />
+        <ChannelLink
+          img="e"
+          name="Essays"
+          link="/essays"
+          site=""
+          action="a"
+        />
+      </div>
+      <div className="w-1/2 pl-6 pr-3 pb-12">
+        <ChannelLink
+          img="a"
+          name="Achievements"
+          link="/achievements"
+          site=""
+          action="a"
+        />
+      </div>
     </main>
-);
+  );
 }
