@@ -163,17 +163,105 @@ export default function Home() {
         <br/><br/>
         Bob is currently a Software Engineer at Macquarie Group where he is working with a Banking and Financial
         Services aligned engineering team delivering on updates to the Macquarie home and car loan portals.
-        <br/><br/>
+        <div className="my-8 flex flex-row space-x-2 w-full h-14">
+          <div
+            className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+            <a href="https://www.macquarie.com.au">
+              <Image
+                alt=""
+                src="https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1661409460/Lawyers%20Weekly/macquarie-bank-logo-png_tndonm.png"
+                width={150}
+                height={0}
+                className="rounded-lg"
+              />
+            </a>
+          </div>
+        </div>
         Bob is proud of his experience having been able to contribute to meaningful organisations and projects via his
         work. This especially includes his time at Jade.io and his foundational work on brief.bar as well as
         contributions to OpenLaw, Little William Bourke, LawStream and LawFluent. He further is pleased with his
         experiences at startups Volt Bank and Voly.
-        <br/><br/>
+        <div className="my-8 flex flex-row space-x-2 w-full h-14">
+          <div
+            className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+            <a href="https://jade.io">
+              <Image
+                alt=""
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADgCAMAAADCMfHtAAAAe1BMVEX///8Ul0kAkDfh7+Xu9/EAjzTz+vYAlEEAkTsAkToJlUUAjjEAkz/2+/jy+PR8vJEZmU3Q5tfo8+zD38w3oV6Ev5dutoZgsHus07jH4dApnVW93MdUq3KizrCcy6va699Jp2o7omFZrXZstYSOxKC118Cq0rdNqW2KwpyI+vJJAAAEuUlEQVR4nO2d63LiOBBGLYMiW7IxJHZMIBDIDJu8/xMul+zEBl9aU0ukVn3nfxc6Jal1s0QUAQAAAAAAAAAAAAAAAAAAAAAAAACAM49Pm+K9TB5dl+M+TDa1kmmmtJYT12W5A4tKyEyLC3FwhrPtPFbim9AMJ8/mT+2FaDipjRJXhGSYPxt97ReU4TK+qb+gDGe7uMsvHMN13NFAQzKsTI9fKIYfSa9gEIb5qjPFhGM4nQ8JBmA40305JhDDfD4syN+wHBFkb/g62AcDMKzSMUHmhuv+gT4Mw+l4DTI33I1lGe6GG0oVcjacSoogZ8Oa0kY5Gy5oVcjYcE+rQr6GLz2bFuEYUquQreEbsRfyNXwenXEzN8zJVcjV8DCw9RSG4Ss1z3A1zAmrJt6Ga3ojZWpYkDMpV8MVvRvyNLTphjwNF6SlL2fDpUWi4Wn4aZFoeBrWwRuSV05sDW0EeRrSFxZcDW2GQ5aGFotDGHoKDGHoPzCEof/AEIb+A0P+hsRPFGDoMTCEof/AEIb+A0MY+g8MYeg/MISh/8AQhv7DxfCx2B5e/urXuRhOTJakMi2Lpe0jQGwMLxcmtEqkqF5sIpkZXixjVdELwtDwhJK7J2IkU8NjTcarNSmSreHJsVwQIhkbHh1lPRuNZG147I/xciySueGxSK/5cCR7Q6HUcG/kbyiE2QxFhmAoZDEQGYShSOr+yDAMRfbaGxmIocje+yJDMRTJr57IYAxF/Ls7MhxDYbpn4gEZCtm5/LczlNOfNvsPiqFedUWGZCiSqiMyKENh3m4juRg+kMrZ1U4tDUdWKneEVs7kdhJuZ2gcqH0x9hzgF+lNHdgZahduF4jvIqibZGNlqHcO1L6gXqqX1zs3Vobq2YncmQ3xvvJNJVoZZlsncmfId87jq55oZZhS95nvAG24ELfp1MrQ3XAY0d9+0PN2nF2mceN2gfx+R9zee7MxdJloouiJ2hGvco2NYXJwJHeGfm9CteJsDI3LbhhF7+Q311rzbwtDl+P9CfJ7Vu1BzcIw+ceV2xfUlwF1a2vRwtDhwuICPZs2o+iGum+77seYUMva2k6iG0rKget9ob67ljR33ciGeu9M7A/UZ1ZbqYZsGFt9xHInPoiLxObUhGroQxVG0RvtnZLWuEY19KAXniA+09mcfBMN1cAB3U+S0yanzeGC+sz1+FcdP8OStm/aiKAZxq6nM9/sKO20OTkhGaqdM6EbZpR2Kh++A0iGqS9t9ATlPxxsDY3D7ZkOqvE1hqVh2nO46oyP0a5oZ6h6vwFwxuimlJWhLt2Z9JGLEUUbQz13vSrsYjaiaGGotY+CR8Xhoyi6oZ77NE40ycvs/zBUpZ81eKYeGPqphql/WbTJ7/6hn2hofBsHr1movoGRZKgSHxb1w+S/ZHfCoRjKd4+74DcvonMKN26YKdptDQ/Yyo6m2jTsOu9Q5tNdia3Jq9v/nh42VKbwdRDs4eEzTTTVUCfpp9sTpr9juW/9SXpfP9SZ2Y9eQfGVybY0idL9hlolZr+1vZ/pF9NDUco4yZQ2TUOjVJbEsqzWzHpfN/nbYVvUzdlmvqqL7aHjo0UAAAAAAAAAAAAAAAAAAAAAAAAAAM78C57iQWN5fgp4AAAAAElFTkSuQmCC"
+                width={40}
+                height={0}
+                className="rounded-lg"
+              />
+            </a>
+          </div>
+          <div
+            className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+            <a href="https://victorianreports.com.au">
+              <Image
+                alt=""
+                src="https://victorianreports.com.au/assets/images/vr-logo-charcoal.png"
+                width={50}
+                height={0}
+                className="rounded-lg"
+              />
+            </a>
+          </div>
+          <div
+            className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+            <a href="https://openlaw.com.au">
+              <Image
+                alt=""
+                src="https://cdn.filestackcontent.com/compress/output=format:jpg/cache=expiry:max/resize=width:1600/weyTRCuJQEKM4pJT0J1B"
+                width={90}
+                height={0}
+                className="rounded-lg"
+              />
+            </a>
+          </div>
+          <div
+            className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+            <a href="https://en.wikipedia.org/wiki/Volt_Bank">
+              <Image
+                alt=""
+                src="https://image.pitchbook.com/EcZMyz60tWXYxki8OyLtLcEouhA1579600932526_200x200"
+                width={80}
+                height={0}
+                className="rounded-lg"
+              />
+            </a>
+          </div>
+        </div>
         Outside of work, Bob is an active participant in extracurricular university programs having held the presidency
         of two different societies. Bob is especially pleased with his work at UNSW Fintech with respect to good project
         management in the SIG Algothon and good governance changes. Further, the free and open source projects of DevSoc
         are a worthy cause that serves student developers and the UNSW community well.
       </p>
+      <div className="my-8 px-6 flex flex-row space-x-2 w-full h-14">
+        <div
+          className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <a href="https://unswfintech.com">
+            <Image
+              alt=""
+              src="https://media.licdn.com/dms/image/D560BAQE_rkSk_pK13w/company-logo_200_200/0/1701169794961?e=2147483647&v=beta&t=nqdTXohRdKpMvtNcg86F7sUpKEgO9zhXRnD0hGbn3CU"
+              width={50}
+              height={0}
+              className="rounded-lg"
+            />
+          </a>
+        </div>
+        <div
+          className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <a href="https://unswfintech.com">
+            <Image
+              alt=""
+              src="https://framerusercontent.com/images/3jO1MjVcyxB6v1n5bd8IPcRPLI.png"
+              width={80}
+              height={0}
+              className="rounded-lg"
+            />
+          </a>
+        </div>
+      </div>
       <div className="w-full px-6 py-8 columns-2">
         <ChannelLink
           img="li"
@@ -192,24 +280,24 @@ export default function Home() {
         <ChannelLink
           img="oe"
           name="Other Experiences"
-          link="/volunteering"
-          site=""
-        />
-        <ChannelLink
-          img="e"
-          name="Essays"
-          link="/essays"
-          site=""
-        />
-      </div>
-      <div className="w-1/2 pl-6 pr-3 pb-8">
-        <ChannelLink
-          img="a"
-          name="Achievements"
-          link="/achievements"
-          site=""
-        />
-      </div>
+            link="/volunteering"
+            site=""
+          />
+          <ChannelLink
+            img="e"
+            name="Essays"
+            link="/essays"
+            site=""
+          />
+        </div>
+        <div className="w-1/2 pl-6 pr-3 pb-8">
+          <ChannelLink
+            img="a"
+            name="Achievements"
+            link="/achievements"
+            site=""
+          />
+        </div>
     </main>
-  );
+);
 }
