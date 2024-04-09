@@ -6,6 +6,7 @@ import Fintech from '../../public/1708689451154.jpg'
 import DevSoc from "../../public/1708676099763.jpg"
 import Fintech2 from '../../public/1708689483040.jpg'
 import React, {Suspense} from "react";
+import activities from "@/app/recent_activity_data";
 
 interface ChannelLinkProps {
   img: string;
@@ -110,7 +111,7 @@ export default function Home() {
       <h1 className="px-6 py-8 text-3xl font-medium">Bob Chen</h1>
       <div className="columns-2 sm:columns-3 gap-4 my-8 px-6">
         <div className="relative h-40 mb-4">
-        <Image
+          <Image
             alt="My Software Development Society Team"
             src={DevSoc}
             fill
@@ -277,33 +278,21 @@ export default function Home() {
         </div>
       </div>
       <h2 className="w-full px-6 pb-8 text-xl font-bold">Recent activity</h2>
-      <div className="w-full px-6 pb-8">
-        <ChannelLink
-          img=""
-          name="Packed, Stacked and Attacked"
-          link="/volunteering"
-          site="The importance of administrative tribunal reform that learns from the past and sufficiently protects member independence"
-          action="e"
-        />
-      </div>
-      <div className="w-full px-6 pb-8">
-        <ChannelLink
-          img=""
-          name="Central Bank Digital Currencies"
-          link="/volunteering"
-          site="The new balance between privacy and access in the digital economy"
-          action="e"
-        />
-      </div>
-      <div className="w-full px-6 pb-8">
-        <ChannelLink
-          img=""
-          name="Google Cloud Digital Leader"
-          link="/volunteering"
-          site=""
-          action="a"
-        />
-      </div>
+      {
+        activities.map((activity, idx) => {
+          return (
+            <div className="w-full px-6 pb-8">
+              <ChannelLink
+                img=""
+                name={activity.title}
+                link={activity.url}
+                site={activity.subtitle}
+                action={activity.icon}
+              />
+            </div>
+          )
+        })
+      }
       <h2 className="w-full px-6 text-xl pt-3 pb-8 font-bold">Find out more</h2>
       <div className="w-full px-6 pb-8 columns-2">
         <ChannelLink
