@@ -254,7 +254,7 @@ export default function Home() {
       <div className="my-8 px-6 flex flex-row space-x-2 w-full h-14">
         <div
           className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-          <a href="https://unswfintech.com">
+          <a href="https://devsoc.app">
             <Image
               alt=""
               src="https://media.licdn.com/dms/image/D560BAQE_rkSk_pK13w/company-logo_200_200/0/1701169794961?e=2147483647&v=beta&t=nqdTXohRdKpMvtNcg86F7sUpKEgO9zhXRnD0hGbn3CU"
@@ -300,7 +300,7 @@ export default function Home() {
             return
           } else if (idx % 2 != 0) {
             return (
-              <div className="w-full px-6 pb-8 columns-2">
+              <div className="w-full px-6 pb-8 columns-2" key={idx}>
                 <StyledLink
                   img={findOutMore[idx - 1].image}
                   name={findOutMore[idx - 1].name}
@@ -319,7 +319,7 @@ export default function Home() {
             )
           } else {
             return (
-              <div className="w-1/2 pl-6 pr-3 pb-12">
+              <div className="w-1/2 pl-6 pr-3 pb-12" key={idx}>
                 <StyledLink
                   img={item.image}
                   name={item.name}
