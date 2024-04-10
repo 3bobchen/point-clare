@@ -6,9 +6,9 @@ import Fintech from '../../public/1708689451154.jpg'
 import DevSoc from "../../public/1708676099763.jpg"
 import Fintech2 from '../../public/1708689483040.jpg'
 import React, {Suspense} from "react";
-import activities from "@/app/recent_activity_data";
+import {activities, findOutMore} from "@/app/data";
 
-interface ChannelLinkProps {
+interface StyledLinkProps {
   img: string;
   link: string;
   name: string;
@@ -16,7 +16,7 @@ interface ChannelLinkProps {
   action: string;
 }
 
-function ChannelLink(props: ChannelLinkProps) {
+function StyledLink(props: StyledLinkProps) {
   const {img, link, name, site, action} = props;
   return (
     <div className="group flex w-full">
@@ -282,7 +282,7 @@ export default function Home() {
         activities.map((activity, idx) => {
           return (
             <div className="w-full px-6 pb-8" key={idx}>
-              <ChannelLink
+              <StyledLink
                 img=""
                 name={activity.title}
                 link={activity.url}
@@ -294,47 +294,44 @@ export default function Home() {
         })
       }
       <h2 className="w-full px-6 text-xl pt-3 pb-8 font-bold">Find out more</h2>
-      <div className="w-full px-6 pb-8 columns-2">
-        <ChannelLink
-          img="li"
-          name="LinkedIn"
-          link="https://www.linkedin.com/in/3bobchen/"
-          site="@3bobchen"
-          action="a"
-        />
-        <ChannelLink
-          img="we"
-          name="Work Experiences"
-          link="/work"
-          site=""
-          action="a"
-        />
-      </div>
-      <div className="w-full px-6 pb-8 columns-2">
-        <ChannelLink
-          img="oe"
-          name="Other Experiences"
-          link="/volunteering"
-          site=""
-          action="a"
-        />
-        <ChannelLink
-          img="e"
-          name="Essays"
-          link="/essays"
-          site=""
-          action="a"
-        />
-      </div>
-      <div className="w-1/2 pl-6 pr-3 pb-12">
-        <ChannelLink
-          img="a"
-          name="Achievements"
-          link="/achievements"
-          site=""
-          action="a"
-        />
-      </div>
+      {
+        findOutMore.map((item, idx) => {
+          if (findOutMore[idx + 1] && idx % 2 == 0) {
+            return
+          } else if (idx % 2 != 0) {
+            return (
+              <div className="w-full px-6 pb-8 columns-2">
+                <StyledLink
+                  img={findOutMore[idx - 1].image}
+                  name={findOutMore[idx - 1].name}
+                  link={findOutMore[idx - 1].link}
+                  site={findOutMore[idx - 1].subtitle}
+                  action={findOutMore[idx - 1].icon}
+                />
+                <StyledLink
+                  img={item.image}
+                  name={item.name}
+                  link={item.link}
+                  site={item.subtitle}
+                  action={item.icon}
+                />
+              </div>
+            )
+          } else {
+            return (
+              <div className="w-1/2 pl-6 pr-3 pb-12">
+                <StyledLink
+                  img={item.image}
+                  name={item.name}
+                  link={item.link}
+                  site={item.subtitle}
+                  action={item.icon}
+                />
+              </div>
+            )
+          }
+        })
+      }
     </main>
   );
 }

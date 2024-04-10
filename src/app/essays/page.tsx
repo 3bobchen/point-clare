@@ -3,7 +3,7 @@ import React, {Suspense} from "react";
 import Image from "next/image";
 import essays, {EssayObject} from "./essay_data";
 
-interface EssayLinkProps {
+interface PictureLinkProps {
   img: string;
   link: string;
   name: string;
@@ -12,7 +12,7 @@ interface EssayLinkProps {
   credit: string;
 }
 
-function ChannelLink(props: EssayLinkProps) {
+function PictureLink(props: PictureLinkProps) {
   const {img, link, name, subtitle, tag, credit
   } = props;
   return (
@@ -57,7 +57,7 @@ export default function Page() {
         {
           essays.map((essay: EssayObject, idx: number) => {
             return (
-              <ChannelLink
+              <PictureLink
                 key={idx}
                 img={essay.imageURL}
                 credit={essay.imageCredit}

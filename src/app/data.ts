@@ -5,7 +5,7 @@ export interface ActivityObject {
   icon: string;
 }
 
-const activities: ActivityObject[] = [
+export const activities: ActivityObject[] = [
   {
     title: "Packed, Stacked and Attacked",
     subtitle: "The importance of administrative tribunal reform that learns from the past and sufficiently protects member independence",
@@ -26,4 +26,40 @@ const activities: ActivityObject[] = [
   },
 ]
 
-export default activities;
+export const findOutMore = [
+  {
+    image: "li",
+    name: "LinkedIn",
+    subtitle: "@3bobchen",
+    link: "https://www.linkedin.com/in/3bobchen/",
+    icon: "a"
+  },
+  {
+    image: "we",
+    name: "Work Experiences",
+    subtitle: "",
+    link: "/work",
+    icon: "a"
+  },
+  {
+    image: "oe",
+    name: "Other Experiences",
+    subtitle: "",
+    link: "/volunteering",
+    icon: "a"
+  },
+  {
+    image: "e",
+    name: "Essays",
+    subtitle: "",
+    link: "/essays",
+    icon: "a"
+  },
+  {
+    image: "a",
+    name: "Achievements",
+    subtitle: "",
+    link: "/achievements",
+    icon: "a"
+  }
+]
