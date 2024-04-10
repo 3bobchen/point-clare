@@ -281,7 +281,7 @@ export default function Home() {
       {
         activities.map((activity, idx) => {
           return (
-            <div className="w-full px-6 pb-8">
+            <div className="w-full px-6 pb-8" key={idx}>
               <ChannelLink
                 img=""
                 name={activity.title}
