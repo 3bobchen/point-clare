@@ -1,4 +1,4 @@
-export interface WorkDataObject {
+export interface VolunteeringDataObject {
   companyName: string;
   companyLogo: string;
   companyBlurb: string;
@@ -21,7 +21,7 @@ interface RoleObject {
   roleDescription: string;
 }
 
-export const work_data: WorkDataObject[] = [
+export const volunteering_data: VolunteeringDataObject[] = [
   {
     companyName: "Software Development Society",
     companyLogo: "/devsoc.png",

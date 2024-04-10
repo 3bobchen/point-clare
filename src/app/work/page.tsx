@@ -1,4 +1,6 @@
 import React from "react";
+import {work_data, WorkDataObject} from "@/app/work/work_data";
+import {WorkHistoryObject} from "@/components/Work";
 
 export default function Page() {
   return (
@@ -9,6 +11,18 @@ export default function Page() {
         <a href="/volunteering">volunteering</a>
         <a href="/essays">essays</a>
         <a href="/achievements">achievements</a>
+      </div>
+      <div className="w-full px-6 pb-8">
+        {
+          work_data.map((work: WorkDataObject, idx: number) => {
+            return (
+              <WorkHistoryObject
+                key={idx}
+                work={work}
+              />
+            )
+          })
+        }
       </div>
     </main>
   )
