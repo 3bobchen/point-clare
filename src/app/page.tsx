@@ -105,7 +105,7 @@ export default function Home() {
         <a><b>home</b></a>
         <a href="/work">work</a>
         <a href="/volunteering">volunteering</a>
-        <a href="/essays">essays</a>
+        {/*<a href="/essays">essays</a>*/}
         <a href="/travel">travel</a>
       </div>
       <h1 className="px-6 py-8 text-3xl font-medium">Bob Chen</h1>

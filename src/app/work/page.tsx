@@ -9,7 +9,7 @@ export default function Page() {
         <a href="/">home</a>
         <a><b>work</b></a>
         <a href="/volunteering">volunteering</a>
-        <a href="/essays">essays</a>
+        {/*<a href="/essays">essays</a>*/}
         <a href="/travel">travel</a>
       </div>
       <div className="w-full px-6 pb-8">

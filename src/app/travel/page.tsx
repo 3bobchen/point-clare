@@ -36,7 +36,7 @@ export default function Page() {
         <a href="/">home</a>
         <a href="/work">work</a>
         <a href="/volunteering">volunteering</a>
-        <a href="/essays">essays</a>
+        {/*<a href="/essays">essays</a>*/}
         <a><b>travel</b></a>
       </div>
       <WorldMap
