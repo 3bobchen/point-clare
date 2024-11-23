@@ -277,22 +277,22 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <h2 className="w-full px-6 pb-8 text-xl font-bold">Recent activity</h2>
-      {
-        activities.map((activity, idx) => {
-          return (
-            <div className="w-full px-6 pb-8" key={idx}>
-              <StyledLink
-                img=""
-                name={activity.title}
-                link={activity.url}
-                site={activity.subtitle}
-                action={activity.icon}
-              />
-            </div>
-          )
-        })
-      }
+      {/*<h2 className="w-full px-6 pb-8 text-xl font-bold">Recent activity</h2>*/}
+      {/*{*/}
+      {/*  activities.map((activity, idx) => {*/}
+      {/*    return (*/}
+      {/*      <div className="w-full px-6 pb-8" key={idx}>*/}
+      {/*        <StyledLink*/}
+      {/*          img=""*/}
+      {/*          name={activity.title}*/}
+      {/*          link={activity.url}*/}
+      {/*          site={activity.subtitle}*/}
+      {/*          action={activity.icon}*/}
+      {/*        />*/}
+      {/*      </div>*/}
+      {/*    )*/}
+      {/*  })*/}
+      {/*}*/}
       <h2 className="w-full px-6 text-xl pt-3 pb-8 font-bold">Find out more</h2>
       {
         findOutMore.map((item, idx) => {

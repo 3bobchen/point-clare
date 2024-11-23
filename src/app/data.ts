@@ -49,13 +49,6 @@ export const findOutMore = [
     icon: "a"
   },
   {
-    image: "e",
-    name: "Essays",
-    subtitle: "",
-    link: "/essays",
-    icon: "a"
-  },
-  {
     image: "a",
     name: "Travel",
     subtitle: "",
