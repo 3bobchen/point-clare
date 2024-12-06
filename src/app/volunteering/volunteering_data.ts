@@ -41,6 +41,15 @@ export const volunteering_data: VolunteeringDataObject[] = [
         roleEndMonth: 11,
         roleEndYear: 2024,
         roleDescription: ""
+      },
+      {
+        roleTitle: "Sponsorships Director",
+        roleSubtitle: "",
+        roleStartMonth: 10,
+        roleStartYear: 2024,
+        roleEndMonth: null,
+        roleEndYear: null,
+        roleDescription: ""
       }
     ]
   },

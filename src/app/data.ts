@@ -43,7 +43,7 @@ export const findOutMore = [
   },
   {
     image: "oe",
-    name: "Other Experiences",
+    name: "Volunteering",
     subtitle: "",
     link: "/volunteering",
     icon: "a"
