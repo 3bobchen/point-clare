@@ -177,7 +177,7 @@ export default function Home() {
         🗳️ Participation in a variety of interest and career student groups, public forums and competitions
         <br/><br/>
         Bob is currently a Software Engineer at Macquarie Group where he is working with a Banking and Financial
-        Services aligned engineering team delivering on updates to the Macquarie home and car loan portals.
+        Services aligned engineering team delivering on features and updates to the e-banking portal.
         <div className="my-8 flex flex-row space-x-2 w-full h-14">
           <div
             className="border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">

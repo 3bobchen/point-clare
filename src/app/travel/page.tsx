@@ -5,6 +5,13 @@ import WorldMap from "react-svg-worldmap";
 import Image from "next/image";
 import Passport24 from "../../../public/travel/24/PNG image-6E5DD4BB2B59-1.png";
 import Passport23 from "../../../public/travel/23/PNG image-717E1F5654EB-1.png";
+import Passport22 from "../../../public/travel/22/PNG image-292DE0EB7A4B-1.png";
+
+import OxfordCircus from "../../../public/travel/22/D433211C-BDD0-4399-B38E-0A6B5030E224_1_105_c.jpeg";
+import Hanoi from "../../../public/travel/22/2BFB9E00-85E3-4C27-820D-2D6BC5AB86FD_1_105_c.jpeg";
+import CharingCross from "../../../public/travel/22/7B12918C-1CE1-4078-92C8-9D8D0A44A522_1_105_c.jpeg";
+import Oxford from "../../../public/travel/22/DCF82232-DE6E-4959-AF5E-A64B8118FEDA_1_105_c.jpeg";
+import AlbertHall from "../../../public/travel/22/C8C31235-7580-40D1-91AF-0269E042B1DA_1_201_a.jpeg";
 
 import Singapore from "../../../public/travel/23/18FA3C1D-391C-4D76-923C-0253860DF654_1_105_c.jpeg";
 import Shanghai from "../../../public/travel/23/400E7418-A9E9-4EC6-9805-703C67A60791_1_105_c.jpeg";
@@ -170,6 +177,63 @@ export default function Page() {
           <Image
             alt="Summary of flights taken"
             src={Passport23}
+            fill
+            priority
+            className="rounded-lg object-cover"
+          />
+        </div>
+      </div>
+      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2022</h2>
+      <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
+        <div className="relative h-40 mb-4">
+          <Image
+            alt="Oxford Circus Roundel"
+            src={OxfordCircus}
+            fill
+            priority
+            className="rounded-lg object-cover"
+          />
+        </div>
+        <div className="relative h-80 mb-4 sm:mb-0">
+          <Image
+            alt="Hanoi train street"
+            src={Hanoi}
+            fill
+            priority
+            className="rounded-lg object-cover object-[-16px] sm:object-center"
+          />
+        </div>
+        <div className="relative h-40 sm:h-80 sm:mb-4">
+          <Image
+            alt="Oxford"
+            src={Oxford}
+            fill
+            priority
+            className="rounded-lg object-cover object-top sm:object-center"
+          />
+        </div>
+        <div className="relative h-40 mb-4 sm:mb-0">
+          <Image
+            alt="Albert Hall"
+            src={AlbertHall}
+            fill
+            priority
+            className="rounded-lg object-cover"
+          />
+        </div>
+        <div className="relative h-40 mb-4">
+          <Image
+            alt="Charing Cross"
+            src={CharingCross}
+            fill
+            priority
+            className="rounded-lg object-cover"
+          />
+        </div>
+        <div className="relative h-80">
+          <Image
+            alt="Summary of flights taken"
+            src={Passport22}
             fill
             priority
             className="rounded-lg object-cover"
