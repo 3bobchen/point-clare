@@ -14,9 +14,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="color-scheme" content="light dark"/>
-      </Head>
       <body>{children}</body>
     </html>
   );
