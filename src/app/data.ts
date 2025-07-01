@@ -35,24 +35,10 @@ export const findOutMore = [
     icon: "a"
   },
   {
-    image: "we",
-    name: "Work Experiences",
+    image: "cv",
+    name: "Resume",
     subtitle: "",
-    link: "/work",
-    icon: "a"
-  },
-  {
-    image: "oe",
-    name: "Volunteering",
-    subtitle: "",
-    link: "/volunteering",
-    icon: "a"
-  },
-  {
-    image: "a",
-    name: "Travel",
-    subtitle: "",
-    link: "/travel",
+    link: "/cv.pdf",
     icon: "a"
   }
 ]

@@ -64,6 +64,16 @@ function StyledLink(props: StyledLinkProps) {
                   d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
               </svg> : null
           }
+          {
+            img == "cv" ?
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="currentColor">
+                  <path fill-rule="evenodd"
+                        d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625ZM7.5 15a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 7.5 15Zm.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5H8.25Z"
+                        clip-rule="evenodd"/>
+                  <path
+                      d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"/>
+                </svg> : null
+          }
           <div className="flex flex-col">
             <p className="font-medium text-neutral-900 dark:text-neutral-100">
               {name}
@@ -80,12 +90,12 @@ function StyledLink(props: StyledLinkProps) {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col max-w-3xl m-auto">
-      <div className="flex flex-row w-full items-start gap-8 px-6 py-8">
-        <a><b>home</b></a>
-        <a href="/work">work</a>
-        <a href="/volunteering">volunteering</a>
-        {/*<a href="/essays">essays</a>*/}
+      <main className="flex min-h-screen flex-col max-w-3xl m-auto">
+        <div className="flex flex-row w-full items-start gap-8 px-6 py-8">
+          <a><b>home</b></a>
+          <a href="/work">work</a>
+          <a href="/volunteering">volunteering</a>
+          {/*<a href="/essays">essays</a>*/}
         <a href="/travel">travel</a>
       </div>
       <h1 className="px-6 py-8 text-3xl font-medium">Bob Chen</h1>
@@ -273,7 +283,7 @@ export default function Home() {
       {/*    )*/}
       {/*  })*/}
       {/*}*/}
-      <h2 className="w-full px-6 text-xl pt-3 pb-8 font-bold">Find out more</h2>
+      <h2 className="w-full px-6 text-xl pt-3 pb-6 font-bold">External links</h2>
       {
         findOutMore.map((item, idx) => {
           if (findOutMore[idx + 1] && idx % 2 == 0) {

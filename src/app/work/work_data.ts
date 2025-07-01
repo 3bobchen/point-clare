@@ -24,8 +24,8 @@ interface RoleObject {
 
 export const work_data: WorkDataObject[] = [
   {
-    companyName: "Macquarie Group",
-    companyLogo: "https://static.brandirectory.com/logos/mace001_macquarie.jpg",
+    companyName: "Macquarie",
+    companyLogo: "https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1661409460/Lawyers%20Weekly/macquarie-bank-logo-png_tndonm.png",
     companyBlurb: "Macquarie Group Limited is an Australian global financial services group.",
     companyWebsite: "https://www.macquarie.com.au/",
     startMonth: 12,

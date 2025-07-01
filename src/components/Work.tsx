@@ -26,7 +26,7 @@ export function WorkHistoryObject(props: { work: WorkDataObject }) {
   return (
     <div className="group flex-col w-full py-3">
       <div
-        className="relative border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex-col w-full"
+        className="relative border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 rounded flex-col w-full"
       >
         <div className="flex items-center justify-between">
           <div
