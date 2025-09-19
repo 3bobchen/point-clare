@@ -10,7 +10,7 @@ export default function Page() {
         <a><b>work</b></a>
         <a href="/volunteering">volunteering</a>
         {/*<a href="/essays">essays</a>*/}
-        <a href="/travel">travel</a>
+        <a href="/travel">the world</a>
       </div>
       <div className="w-full px-6 pb-8">
         {
