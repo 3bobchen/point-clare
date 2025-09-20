@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React from "react";
 import WorldMap from "react-svg-worldmap";
@@ -69,12 +69,16 @@ export default function Page() {
     <main className="flex min-h-screen flex-col max-w-3xl m-auto">
       <div className="flex flex-row w-full items-start gap-8 px-6 py-8">
         <a href="/">home</a>
+        <a href="/achievements">achievements</a>
+        <a>
+          <b>the world</b>
+        </a>
         <a href="/work">work</a>
         <a href="/volunteering">volunteering</a>
-        {/*<a href="/essays">essays</a>*/}
-        <a><b>the world</b></a>
       </div>
-      <h3 className="pr-6 md:pr-0 flex justify-end mt-5">{data.length} countries and counting</h3>
+      <h3 className="pr-6 md:pr-0 flex justify-end mt-5">
+        {data.length} countries and counting
+      </h3>
       <WorldMap
         color="black"
         value-suffix="people"
@@ -86,56 +90,56 @@ export default function Page() {
       <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
         <div className="relative h-40 mb-4">
           <Image
-              alt="Pyramids of Giza"
-              src={Giza}
-              fill
-              priority
-              className="rounded-lg object-cover"
+            alt="Pyramids of Giza"
+            src={Giza}
+            fill
+            priority
+            className="rounded-lg object-cover"
           />
         </div>
         <div className="relative h-80 mb-4 sm:mb-0">
           <Image
-              alt="Plane"
-              src={Plane}
-              fill
-              priority
-              className="rounded-lg object-cover object-[-16px] sm:object-center"
+            alt="Plane"
+            src={Plane}
+            fill
+            priority
+            className="rounded-lg object-cover object-[-16px] sm:object-center"
           />
         </div>
         <div className="relative h-40 sm:h-80 sm:mb-4">
           <Image
-              alt="Edge of the World"
-              src={Saudi}
-              fill
-              priority
-              className="rounded-lg object-cover object-top sm:object-center"
+            alt="Edge of the World"
+            src={Saudi}
+            fill
+            priority
+            className="rounded-lg object-cover object-top sm:object-center"
           />
         </div>
         <div className="relative h-40 mb-4 sm:mb-0">
           <Image
-              alt="Petronas Towers"
-              src={Kuala}
-              fill
-              priority
-              className="rounded-lg object-cover"
+            alt="Petronas Towers"
+            src={Kuala}
+            fill
+            priority
+            className="rounded-lg object-cover"
           />
         </div>
         <div className="relative h-40 mb-4">
           <Image
-              alt="Istanbul"
-              src={Istanbul}
-              fill
-              priority
-              className="rounded-lg object-cover"
+            alt="Istanbul"
+            src={Istanbul}
+            fill
+            priority
+            className="rounded-lg object-cover"
           />
         </div>
         <div className="relative h-80">
           <Image
-              alt="Summary of flights taken"
-              src={Passport25}
-              fill
-              priority
-              className="rounded-lg object-cover"
+            alt="Summary of flights taken"
+            src={Passport25}
+            fill
+            priority
+            className="rounded-lg object-cover"
           />
         </div>
       </div>
@@ -310,10 +314,10 @@ export default function Page() {
           />
         </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
     </main>
-  )
+  );
 }

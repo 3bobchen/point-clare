@@ -25,7 +25,8 @@ export const volunteering_data: VolunteeringDataObject[] = [
   {
     companyName: "Software Development Society",
     companyLogo: "/devsoc.png",
-    companyBlurb: "DevSoc is a registered not-for-profit and UNSW Arc affiliated student society running services and programs that furthers student experience and learning.",
+    companyBlurb:
+      "DevSoc is a registered not-for-profit and UNSW Arc affiliated student society running services and programs that furthers student experience and learning.",
     companyWebsite: "https://devsoc.app/",
     startMonth: 10,
     startYear: 2023,
@@ -40,7 +41,7 @@ export const volunteering_data: VolunteeringDataObject[] = [
         roleStartYear: 2023,
         roleEndMonth: 11,
         roleEndYear: 2024,
-        roleDescription: ""
+        roleDescription: "",
       },
       {
         roleTitle: "Sponsorships Director",
@@ -49,14 +50,16 @@ export const volunteering_data: VolunteeringDataObject[] = [
         roleStartYear: 2024,
         roleEndMonth: null,
         roleEndYear: null,
-        roleDescription: ""
-      }
-    ]
+        roleDescription: "",
+      },
+    ],
   },
   {
     companyName: "UNSW Fintech Society",
-    companyLogo: "https://framerusercontent.com/images/3jO1MjVcyxB6v1n5bd8IPcRPLI.png",
-    companyBlurb: "FinTech Soc is the pillar for representing the future of financial technologies and seasons of change within the university environment.",
+    companyLogo:
+      "https://framerusercontent.com/images/3jO1MjVcyxB6v1n5bd8IPcRPLI.png",
+    companyBlurb:
+      "FinTech Soc is the pillar for representing the future of financial technologies and seasons of change within the university environment.",
     companyWebsite: "https://devsoc.app/",
     startMonth: 2,
     startYear: 2022,
@@ -71,7 +74,7 @@ export const volunteering_data: VolunteeringDataObject[] = [
         roleStartYear: 2022,
         roleEndMonth: 11,
         roleEndYear: 2023,
-        roleDescription: ""
+        roleDescription: "",
       },
       {
         roleTitle: "Events Director",
@@ -80,14 +83,16 @@ export const volunteering_data: VolunteeringDataObject[] = [
         roleStartYear: 2022,
         roleEndMonth: 11,
         roleEndYear: 2022,
-        roleDescription: ""
-      }
-    ]
+        roleDescription: "",
+      },
+    ],
   },
   {
     companyName: "Computer Science Engineering Society",
-    companyLogo: "https://cdn-static.revolutionise.com.au/assets/images/unsw-csesoc.png",
-    companyBlurb: "CSESoc is one of the biggest and most active societies at UNSW, catering to over 3500 CSE students spanning across degrees in Computer Science.",
+    companyLogo:
+      "https://cdn-static.revolutionise.com.au/assets/images/unsw-csesoc.png",
+    companyBlurb:
+      "CSESoc is one of the biggest and most active societies at UNSW, catering to over 3500 CSE students spanning across degrees in Computer Science.",
     companyWebsite: "https://devsoc.app/",
     startMonth: 2,
     startYear: 2021,
@@ -102,7 +107,7 @@ export const volunteering_data: VolunteeringDataObject[] = [
         roleStartYear: 2022,
         roleEndMonth: 11,
         roleEndYear: 2023,
-        roleDescription: ""
+        roleDescription: "",
       },
       {
         roleTitle: "Creative Subcommittee",
@@ -111,8 +116,8 @@ export const volunteering_data: VolunteeringDataObject[] = [
         roleStartYear: 2021,
         roleEndMonth: 11,
         roleEndYear: 2021,
-        roleDescription: ""
-      }
-    ]
-  }
-]
+        roleDescription: "",
+      },
+    ],
+  },
+];

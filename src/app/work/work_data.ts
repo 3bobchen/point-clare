@@ -25,8 +25,10 @@ interface RoleObject {
 export const work_data: WorkDataObject[] = [
   {
     companyName: "Macquarie",
-    companyLogo: "https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1661409460/Lawyers%20Weekly/macquarie-bank-logo-png_tndonm.png",
-    companyBlurb: "Macquarie Group Limited is an Australian global financial services group.",
+    companyLogo:
+      "https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1661409460/Lawyers%20Weekly/macquarie-bank-logo-png_tndonm.png",
+    companyBlurb:
+      "Macquarie Group Limited is an Australian global financial services group.",
     companyWebsite: "https://www.macquarie.com.au/",
     startMonth: 12,
     startYear: 2023,
@@ -41,7 +43,7 @@ export const work_data: WorkDataObject[] = [
         roleStartYear: 2024,
         roleEndMonth: null,
         roleEndYear: null,
-        roleDescription: ""
+        roleDescription: "",
       },
       {
         roleTitle: "Tech, Digital and Data Intern",
@@ -50,14 +52,15 @@ export const work_data: WorkDataObject[] = [
         roleStartYear: 2023,
         roleEndMonth: 2,
         roleEndYear: 2024,
-        roleDescription: ""
-      }
-    ]
+        roleDescription: "",
+      },
+    ],
   },
   {
     companyName: "Open Law (Jade.io)",
     companyLogo: "/jade.png",
-    companyBlurb: "The Open Law ecosystem contains a number of projects for enhancing access to law and increasing efficiency of legal practitioners and researchers.",
+    companyBlurb:
+      "The Open Law ecosystem contains a number of projects for enhancing access to law and increasing efficiency of legal practitioners and researchers.",
     companyWebsite: "https://openlaw.com.au/",
     startMonth: 5,
     startYear: 2021,
@@ -72,7 +75,7 @@ export const work_data: WorkDataObject[] = [
         roleStartYear: 2023,
         roleEndMonth: 11,
         roleEndYear: 2023,
-        roleDescription: ""
+        roleDescription: "",
       },
       {
         roleTitle: "Junior System Engineer and Junior JADE Editor",
@@ -81,7 +84,7 @@ export const work_data: WorkDataObject[] = [
         roleStartYear: 2022,
         roleEndMonth: 8,
         roleEndYear: 2023,
-        roleDescription: ""
+        roleDescription: "",
       },
       {
         roleTitle: "Junior Software Engineer",
@@ -90,14 +93,16 @@ export const work_data: WorkDataObject[] = [
         roleStartYear: 2021,
         roleEndMonth: 8,
         roleEndYear: 2022,
-        roleDescription: ""
-      }
-    ]
+        roleDescription: "",
+      },
+    ],
   },
   {
     companyName: "NSW Electoral Commission",
-    companyLogo: "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/NSW_Electoral_Commission_logo.svg/800px-NSW_Electoral_Commission_logo.svg.png",
-    companyBlurb: "The NSWEC is legislated to conduct, regulate and report on elections on behalf of the people of New South Wales.",
+    companyLogo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/NSW_Electoral_Commission_logo.svg/800px-NSW_Electoral_Commission_logo.svg.png",
+    companyBlurb:
+      "The NSWEC is legislated to conduct, regulate and report on elections on behalf of the people of New South Wales.",
     companyWebsite: "https://elections.nsw.gov.au/",
     startMonth: 2,
     startYear: 2021,
@@ -113,7 +118,7 @@ export const work_data: WorkDataObject[] = [
         roleEndMonth: null,
         roleEndYear: null,
         oneOff: true,
-        roleDescription: ""
+        roleDescription: "",
       },
       {
         roleTitle: "Declaration Voting and Information Officer",
@@ -123,14 +128,16 @@ export const work_data: WorkDataObject[] = [
         roleEndMonth: null,
         roleEndYear: null,
         oneOff: true,
-        roleDescription: ""
-      }
-    ]
+        roleDescription: "",
+      },
+    ],
   },
   {
     companyName: "Volt Bank",
-    companyLogo: "https://www.bankingday.com/uploads/2022/Q3/Volt-logo-August2022.png",
-    companyBlurb: "Volt Bank was an Australian consumer neobank, the first such bank to be issued with a restricted ADI licence by APRA.",
+    companyLogo:
+      "https://www.bankingday.com/uploads/2022/Q3/Volt-logo-August2022.png",
+    companyBlurb:
+      "Volt Bank was an Australian consumer neobank, the first such bank to be issued with a restricted ADI licence by APRA.",
     companyWebsite: "https://en.wikipedia.org/wiki/Volt_Bank",
     startMonth: 2,
     startYear: 2022,
@@ -145,14 +152,16 @@ export const work_data: WorkDataObject[] = [
         roleStartYear: 2022,
         roleEndMonth: 7,
         roleEndYear: 2022,
-        roleDescription: ""
-      }
-    ]
+        roleDescription: "",
+      },
+    ],
   },
   {
     companyName: "Voly",
-    companyLogo: "https://imageresizer.static9.net.au/ubIGHnc9KUoQmbd3JWRybtRVglQ=/259x0:1378x746/750x422/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F5cb2c612-acf1-4357-87b1-eabcc946e622",
-    companyBlurb: "Voly was Australia’s first on-demand supermarket delivering groceries in minutes.",
+    companyLogo:
+      "https://imageresizer.static9.net.au/ubIGHnc9KUoQmbd3JWRybtRVglQ=/259x0:1378x746/750x422/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F5cb2c612-acf1-4357-87b1-eabcc946e622",
+    companyBlurb:
+      "Voly was Australia’s first on-demand supermarket delivering groceries in minutes.",
     companyWebsite: "https://www.linkedin.com/company/getvoly/about/",
     startMonth: 11,
     startYear: 2021,
@@ -167,8 +176,8 @@ export const work_data: WorkDataObject[] = [
         roleStartYear: 2021,
         roleEndMonth: 2,
         roleEndYear: 2022,
-        roleDescription: ""
-      }
-    ]
-  }
-]
+        roleDescription: "",
+      },
+    ],
+  },
+];
