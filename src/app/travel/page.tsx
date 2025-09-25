@@ -31,6 +31,7 @@ import Istanbul from "../../../public/travel/25/istanbul.jpeg";
 import Kuala from "../../../public/travel/25/kuala.jpeg";
 import Saudi from "../../../public/travel/25/saudi.jpeg";
 import Plane from "../../../public/travel/25/plane.jpeg";
+import { Header } from "@/components/Header";
 
 export default function Page() {
   const data = [
@@ -67,15 +68,7 @@ export default function Page() {
 
   return (
     <main className="flex min-h-screen flex-col max-w-3xl m-auto">
-      <div className="flex flex-row w-full items-start gap-8 px-6 py-8">
-        <a href="/">home</a>
-        <a href="/achievements">achievements</a>
-        <a>
-          <b>the world</b>
-        </a>
-        <a href="/work">work</a>
-        <a href="/volunteering">volunteering</a>
-      </div>
+      <Header current="travel" />
       <h3 className="pr-6 md:pr-0 flex justify-end mt-5">
         {data.length} countries and counting
       </h3>

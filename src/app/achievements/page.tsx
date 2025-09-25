@@ -19,19 +19,12 @@ import C3 from "../../../public/achievements/9circuit.jpeg";
 import T1 from "../../../public/achievements/1731059753800.jpeg";
 import T2 from "../../../public/achievements/1731059784532.jpeg";
 import T3 from "../../../public/achievements/1731059768735.jpeg";
+import { Header } from "@/components/Header";
 
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col max-w-3xl m-auto">
-      <div className="flex flex-row w-full items-start gap-8 px-6 py-8">
-        <a href="/">home</a>
-        <a>
-          <b>achievements</b>
-        </a>
-        <a href="/travel">the world</a>
-        <a href="/work">work</a>
-        <a href="/volunteering">volunteering</a>
-      </div>
+      <Header current="highlights" />
 
       <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
