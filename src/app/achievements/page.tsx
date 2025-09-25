@@ -33,218 +33,228 @@ export default function Page() {
         <a href="/volunteering">volunteering</a>
       </div>
 
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
-        US Legal Systems Overseas Elective
-      </h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
-        <div className="relative h-44 mb-8">
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
+          US Legal Systems Overseas Elective
+        </h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
+          <div className="relative h-44 mb-8">
+            <Image
+              alt=""
+              src={C3}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-44">
+            <Image
+              alt=""
+              src={C1}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              alt=""
+              src={C2}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
           <Image
             alt=""
-            src={C3}
-            fill
+            height={60}
+            width={100}
+            src="https://universitiesaustralia.edu.au/wp-content/uploads/2019/05/UNSW-1-300x300.png"
+            priority
+            className="rounded-lg object-cover"
+          />
+          <Image
+            alt=""
+            src="https://jobs.diglib.org/wp-content/uploads/wpjobboard/job/2996/company-logo/UC-Berkeley-Symbol.png"
+            height={50}
+            width={190}
             priority
             className="rounded-lg object-cover"
           />
         </div>
-        <div className="relative h-44">
-          <Image
-            alt=""
-            src={C1}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-96">
-          <Image
-            alt=""
-            src={C2}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-      </div>
-      <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
-        <Image
-          alt=""
-          height={60}
-          width={100}
-          src="https://universitiesaustralia.edu.au/wp-content/uploads/2019/05/UNSW-1-300x300.png"
-          priority
-          className="rounded-lg object-cover"
-        />
-        <Image
-          alt=""
-          src="https://jobs.diglib.org/wp-content/uploads/wpjobboard/job/2996/company-logo/UC-Berkeley-Symbol.png"
-          height={50}
-          width={190}
-          priority
-          className="rounded-lg object-cover"
-        />
       </div>
 
       <br />
       <br />
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">Techspire</h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
-        <div className="relative h-44 mb-8">
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
+          Techspire
+        </h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
+          <div className="relative h-44 mb-8">
+            <Image
+              alt=""
+              src={T3}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-44">
+            <Image
+              alt=""
+              src={T2}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              alt=""
+              src={T1}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
           <Image
             alt=""
-            src={T3}
-            fill
+            height={70}
+            width={90}
+            src="https://avatars.githubusercontent.com/u/148547831?s=200&v=4"
+            priority
+            className="rounded-lg object-cover"
+          />
+          <Image
+            alt=""
+            src="https://devsoc.app/_next/static/media/CSE.23414f15.jpeg"
+            height={70}
+            width={90}
+            priority
+            className="rounded-lg object-cover"
+          />
+          <Image
+            alt=""
+            src="https://www.arc.unsw.edu.au/uploads/Arc%20Clubs%20Logo%202019-solid%20green.png"
+            height={70}
+            width={70}
             priority
             className="rounded-lg object-cover"
           />
         </div>
-        <div className="relative h-44">
-          <Image
-            alt=""
-            src={T2}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-96">
-          <Image
-            alt=""
-            src={T1}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-      </div>
-      <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
-        <Image
-          alt=""
-          height={70}
-          width={90}
-          src="https://avatars.githubusercontent.com/u/148547831?s=200&v=4"
-          priority
-          className="rounded-lg object-cover"
-        />
-        <Image
-          alt=""
-          src="https://devsoc.app/_next/static/media/CSE.23414f15.jpeg"
-          height={70}
-          width={90}
-          priority
-          className="rounded-lg object-cover"
-        />
-        <Image
-          alt=""
-          src="https://www.arc.unsw.edu.au/uploads/Arc%20Clubs%20Logo%202019-solid%20green.png"
-          height={70}
-          width={70}
-          priority
-          className="rounded-lg object-cover"
-        />
       </div>
 
       <br />
       <br />
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
-        Open Law & The ABA Conference
-      </h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
-        <div className="relative h-44 mb-8">
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
+          Named Legal Entity Parsing & The ABA Conference
+        </h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
+          <div className="relative h-44 mb-8">
+            <Image
+              alt=""
+              src={B1}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-44">
+            <Image
+              alt=""
+              src={B3}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              alt=""
+              src={B2}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
           <Image
             alt=""
-            src={B1}
-            fill
+            height={100}
+            width={200}
+            src={Jade}
+            priority
+            className="rounded-lg object-cover"
+          />
+          <Image
+            alt=""
+            src={Openlaw}
+            height={50}
+            width={190}
             priority
             className="rounded-lg object-cover"
           />
         </div>
-        <div className="relative h-44">
-          <Image
-            alt=""
-            src={B3}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-96">
-          <Image
-            alt=""
-            src={B2}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-      </div>
-      <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
-        <Image
-          alt=""
-          height={100}
-          width={200}
-          src={Jade}
-          priority
-          className="rounded-lg object-cover"
-        />
-        <Image
-          alt=""
-          src={Openlaw}
-          height={50}
-          width={190}
-          priority
-          className="rounded-lg object-cover"
-        />
       </div>
 
       <br />
       <br />
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">Algothon</h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
-        <div className="relative h-44 mb-8">
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">Algothon</h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
+          <div className="relative h-44 mb-8">
+            <Image
+              alt=""
+              src={A1}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-44">
+            <Image
+              alt=""
+              src={A3}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              alt=""
+              src={A2}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
           <Image
             alt=""
-            src={A1}
-            fill
+            height={100}
+            width={200}
+            src="https://sponsored.inquirer.com/wp-content/uploads/2023/08/SIG_Blue.png"
+            priority
+            className="rounded-lg object-cover"
+          />
+          <Image
+            alt=""
+            src="https://framerusercontent.com/assets/3jO1MjVcyxB6v1n5bd8IPcRPLI.png"
+            height={80}
+            width={150}
             priority
             className="rounded-lg object-cover"
           />
         </div>
-        <div className="relative h-44">
-          <Image
-            alt=""
-            src={A3}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-96">
-          <Image
-            alt=""
-            src={A2}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-      </div>
-      <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
-        <Image
-          alt=""
-          height={100}
-          width={200}
-          src="https://sponsored.inquirer.com/wp-content/uploads/2023/08/SIG_Blue.png"
-          priority
-          className="rounded-lg object-cover"
-        />
-        <Image
-          alt=""
-          src="https://framerusercontent.com/assets/3jO1MjVcyxB6v1n5bd8IPcRPLI.png"
-          height={80}
-          width={150}
-          priority
-          className="rounded-lg object-cover"
-        />
       </div>
       <br />
       <br />

@@ -86,232 +86,240 @@ export default function Page() {
         data={data}
         backgroundColor="transparent"
       />
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2025</h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Pyramids of Giza"
-            src={Giza}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-80 mb-4 sm:mb-0">
-          <Image
-            alt="Plane"
-            src={Plane}
-            fill
-            priority
-            className="rounded-lg object-cover object-[-16px] sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 sm:h-80 sm:mb-4">
-          <Image
-            alt="Edge of the World"
-            src={Saudi}
-            fill
-            priority
-            className="rounded-lg object-cover object-top sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 mb-4 sm:mb-0">
-          <Image
-            alt="Petronas Towers"
-            src={Kuala}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Istanbul"
-            src={Istanbul}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-80">
-          <Image
-            alt="Summary of flights taken"
-            src={Passport25}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-      </div>
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2024</h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Death Valley"
-            src={DeathV}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-80 mb-4 sm:mb-0">
-          <Image
-            alt="US Capitol Dome"
-            src={Capitol}
-            fill
-            priority
-            className="rounded-lg object-cover object-[-16px] sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 sm:h-80 sm:mb-4">
-          <Image
-            alt="Berkeley Law"
-            src={Berkeley}
-            fill
-            priority
-            className="rounded-lg object-cover object-top sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 mb-4 sm:mb-0">
-          <Image
-            alt="Golden Gate Bridge"
-            src={Golden}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Jingdezhen pottery"
-            src={JDZ}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-80">
-          <Image
-            alt="Summary of flights taken"
-            src={Passport24}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2025</h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Pyramids of Giza"
+              src={Giza}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80 mb-4 sm:mb-0">
+            <Image
+              alt="Plane"
+              src={Plane}
+              fill
+              priority
+              className="rounded-lg object-cover object-[-16px] sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 sm:h-80 sm:mb-4">
+            <Image
+              alt="Edge of the World"
+              src={Saudi}
+              fill
+              priority
+              className="rounded-lg object-cover object-top sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 mb-4 sm:mb-0">
+            <Image
+              alt="Petronas Towers"
+              src={Kuala}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Istanbul"
+              src={Istanbul}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80">
+            <Image
+              alt="Summary of flights taken"
+              src={Passport25}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
         </div>
       </div>
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2023</h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Zaanse Schans"
-            src={Zaanse}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-80 mb-4 sm:mb-0">
-          <Image
-            alt="Sagrada Famillia"
-            src={Sagrada}
-            fill
-            priority
-            className="rounded-lg object-cover object-[-16px] sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 sm:h-80 sm:mb-4">
-          <Image
-            alt="Shanghai Bund"
-            src={Shanghai}
-            fill
-            priority
-            className="rounded-lg object-cover object-top sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 mb-4 sm:mb-0">
-          <Image
-            alt="Phuket Resort"
-            src={Phuket}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Singapore"
-            src={Singapore}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-80">
-          <Image
-            alt="Summary of flights taken"
-            src={Passport23}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2024</h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Death Valley"
+              src={DeathV}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80 mb-4 sm:mb-0">
+            <Image
+              alt="US Capitol Dome"
+              src={Capitol}
+              fill
+              priority
+              className="rounded-lg object-cover object-[-16px] sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 sm:h-80 sm:mb-4">
+            <Image
+              alt="Berkeley Law"
+              src={Berkeley}
+              fill
+              priority
+              className="rounded-lg object-cover object-top sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 mb-4 sm:mb-0">
+            <Image
+              alt="Golden Gate Bridge"
+              src={Golden}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Jingdezhen pottery"
+              src={JDZ}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80">
+            <Image
+              alt="Summary of flights taken"
+              src={Passport24}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
         </div>
       </div>
-      <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2022</h2>
-      <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Oxford Circus Roundel"
-            src={OxfordCircus}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2023</h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Zaanse Schans"
+              src={Zaanse}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80 mb-4 sm:mb-0">
+            <Image
+              alt="Sagrada Famillia"
+              src={Sagrada}
+              fill
+              priority
+              className="rounded-lg object-cover object-[-16px] sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 sm:h-80 sm:mb-4">
+            <Image
+              alt="Shanghai Bund"
+              src={Shanghai}
+              fill
+              priority
+              className="rounded-lg object-cover object-top sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 mb-4 sm:mb-0">
+            <Image
+              alt="Phuket Resort"
+              src={Phuket}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Singapore"
+              src={Singapore}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80">
+            <Image
+              alt="Summary of flights taken"
+              src={Passport23}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
         </div>
-        <div className="relative h-80 mb-4 sm:mb-0">
-          <Image
-            alt="Hanoi train street"
-            src={Hanoi}
-            fill
-            priority
-            className="rounded-lg object-cover object-[-16px] sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 sm:h-80 sm:mb-4">
-          <Image
-            alt="Oxford"
-            src={Oxford}
-            fill
-            priority
-            className="rounded-lg object-cover object-top sm:object-center"
-          />
-        </div>
-        <div className="relative h-40 mb-4 sm:mb-0">
-          <Image
-            alt="Albert Hall"
-            src={AlbertHall}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-40 mb-4">
-          <Image
-            alt="Charing Cross"
-            src={CharingCross}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
-        </div>
-        <div className="relative h-80">
-          <Image
-            alt="Summary of flights taken"
-            src={Passport22}
-            fill
-            priority
-            className="rounded-lg object-cover"
-          />
+      </div>
+      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2022</h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Oxford Circus Roundel"
+              src={OxfordCircus}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80 mb-4 sm:mb-0">
+            <Image
+              alt="Hanoi train street"
+              src={Hanoi}
+              fill
+              priority
+              className="rounded-lg object-cover object-[-16px] sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 sm:h-80 sm:mb-4">
+            <Image
+              alt="Oxford"
+              src={Oxford}
+              fill
+              priority
+              className="rounded-lg object-cover object-top sm:object-center"
+            />
+          </div>
+          <div className="relative h-40 mb-4 sm:mb-0">
+            <Image
+              alt="Albert Hall"
+              src={AlbertHall}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-40 mb-4">
+            <Image
+              alt="Charing Cross"
+              src={CharingCross}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-80">
+            <Image
+              alt="Summary of flights taken"
+              src={Passport22}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
         </div>
       </div>
       <br />
