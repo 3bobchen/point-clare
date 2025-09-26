@@ -3,34 +3,34 @@
 import React from "react";
 import WorldMap from "react-svg-worldmap";
 import Image from "next/image";
-import Passport25 from "../../../public/travel/25/4A92A6D7-03AE-472F-9B85-85BC9F23B365.png";
-import Passport24 from "../../../public/travel/24/PNG image-6E5DD4BB2B59-1.png";
-import Passport23 from "../../../public/travel/23/PNG image-717E1F5654EB-1.png";
-import Passport22 from "../../../public/travel/22/PNG image-292DE0EB7A4B-1.png";
+import Passport25 from "../../../public/travel/25/4A92A6D7-03AE-472F-9B85-85BC9F23B365.webp";
+import Passport24 from "../../../public/travel/24/PNG image-6E5DD4BB2B59-1.webp";
+import Passport23 from "../../../public/travel/23/PNG image-717E1F5654EB-1.webp";
+import Passport22 from "../../../public/travel/22/PNG image-292DE0EB7A4B-1.webp";
 
-import OxfordCircus from "../../../public/travel/22/D433211C-BDD0-4399-B38E-0A6B5030E224_1_105_c.jpeg";
-import Hanoi from "../../../public/travel/22/2BFB9E00-85E3-4C27-820D-2D6BC5AB86FD_1_105_c.jpeg";
-import CharingCross from "../../../public/travel/22/7B12918C-1CE1-4078-92C8-9D8D0A44A522_1_105_c.jpeg";
-import Oxford from "../../../public/travel/22/DCF82232-DE6E-4959-AF5E-A64B8118FEDA_1_105_c.jpeg";
-import AlbertHall from "../../../public/travel/22/C8C31235-7580-40D1-91AF-0269E042B1DA_1_201_a.jpeg";
+import OxfordCircus from "../../../public/travel/22/D433211C-BDD0-4399-B38E-0A6B5030E224_1_105_c.webp";
+import Hanoi from "../../../public/travel/22/2BFB9E00-85E3-4C27-820D-2D6BC5AB86FD_1_105_c.webp";
+import CharingCross from "../../../public/travel/22/7B12918C-1CE1-4078-92C8-9D8D0A44A522_1_105_c.webp";
+import Oxford from "../../../public/travel/22/DCF82232-DE6E-4959-AF5E-A64B8118FEDA_1_105_c.webp";
+import AlbertHall from "../../../public/travel/22/C8C31235-7580-40D1-91AF-0269E042B1DA_1_201_a.webp";
 
-import Singapore from "../../../public/travel/23/18FA3C1D-391C-4D76-923C-0253860DF654_1_105_c.jpeg";
-import Shanghai from "../../../public/travel/23/400E7418-A9E9-4EC6-9805-703C67A60791_1_105_c.jpeg";
-import Sagrada from "../../../public/travel/23/F2A53FD8-8DC1-4800-B70F-96D94FE8A260_1_105_c.jpeg";
-import Zaanse from "../../../public/travel/23/FECB8F36-2CCE-4F0A-A3D5-FD5EDA64FB87_1_102_o.jpeg";
-import Phuket from "../../../public/travel/23/6C30BD44-305F-4322-8E24-D0EF1A7F50E6_1_105_c.jpeg";
+import Singapore from "../../../public/travel/23/18FA3C1D-391C-4D76-923C-0253860DF654_1_105_c.webp";
+import Shanghai from "../../../public/travel/23/400E7418-A9E9-4EC6-9805-703C67A60791_1_105_c.webp";
+import Sagrada from "../../../public/travel/23/F2A53FD8-8DC1-4800-B70F-96D94FE8A260_1_105_c.webp";
+import Zaanse from "../../../public/travel/23/FECB8F36-2CCE-4F0A-A3D5-FD5EDA64FB87_1_102_o.webp";
+import Phuket from "../../../public/travel/23/6C30BD44-305F-4322-8E24-D0EF1A7F50E6_1_105_c.webp";
 
-import Capitol from "../../../public/travel/24/EDD87E64-911F-4F40-9419-11D177C7A2F8_1_105_c.jpeg";
-import DeathV from "../../../public/travel/24/46753DFD-942D-45ED-9E26-D13F7F570E7B_1_105_c.jpeg";
-import Berkeley from "../../../public/travel/24/7DB16DB4-53AB-496C-840B-26DFE379FE62_1_105_c.jpeg";
-import JDZ from "../../../public/travel/24/2730FF35-33C0-45AB-87A4-EF6803F84D9E_1_105_c.jpeg";
-import Golden from "../../../public/travel/24/8C7D7088-312D-4D17-82B8-AED1D308DA3B_1_105_c.jpeg";
+import Capitol from "../../../public/travel/24/EDD87E64-911F-4F40-9419-11D177C7A2F8_1_105_c.webp";
+import DeathV from "../../../public/travel/24/46753DFD-942D-45ED-9E26-D13F7F570E7B_1_105_c.webp";
+import Berkeley from "../../../public/travel/24/7DB16DB4-53AB-496C-840B-26DFE379FE62_1_105_c.webp";
+import JDZ from "../../../public/travel/24/2730FF35-33C0-45AB-87A4-EF6803F84D9E_1_105_c.webp";
+import Golden from "../../../public/travel/24/8C7D7088-312D-4D17-82B8-AED1D308DA3B_1_105_c.webp";
 
-import Giza from "../../../public/travel/25/giza.jpeg";
-import Istanbul from "../../../public/travel/25/istanbul.jpeg";
-import Kuala from "../../../public/travel/25/kuala.jpeg";
-import Saudi from "../../../public/travel/25/saudi.jpeg";
-import Plane from "../../../public/travel/25/plane.jpeg";
+import Giza from "../../../public/travel/25/giza.webp";
+import Istanbul from "../../../public/travel/25/istanbul.webp";
+import Kuala from "../../../public/travel/25/kuala.webp";
+import Saudi from "../../../public/travel/25/saudi.webp";
+import Plane from "../../../public/travel/25/plane.webp";
 import { Header } from "@/components/Header";
 
 export default function Page() {

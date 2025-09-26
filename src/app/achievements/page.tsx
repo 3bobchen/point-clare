@@ -1,24 +1,24 @@
 import React from "react";
 import Image from "next/image";
 
-import Jade from "../../../public/achievements/Screenshot 2025-09-20 at 14.26.44.png";
-import Openlaw from "../../../public/achievements/open-law-banner.svg";
+import Jade from "../../../public/achievements/Screenshot 2025-09-20 at 14.26.44.webp";
+import Openlaw from "../../../public/achievements/open-law-banner.webp";
 
-import A1 from "../../../public/achievements/489698761_1488408432403570_345089709994515814_n.jpg";
-import A2 from "../../../public/achievements/IMG_5730.jpeg";
-import A3 from "../../../public/achievements/489567295_1488408299070250_2526129421879026284_n.jpg";
+import A1 from "../../../public/achievements/489698761_1488408432403570_345089709994515814_n.webp";
+import A2 from "../../../public/achievements/IMG_5730.webp";
+import A3 from "../../../public/achievements/489567295_1488408299070250_2526129421879026284_n.webp";
 
-import B1 from "../../../public/achievements/IMG_5859.jpeg";
-import B2 from "../../../public/achievements/IMG_5910.jpeg";
-import B3 from "../../../public/achievements/IMG_6029.jpeg";
+import B1 from "../../../public/achievements/IMG_5859.webp";
+import B2 from "../../../public/achievements/IMG_5910.webp";
+import B3 from "../../../public/achievements/IMG_6029.webp";
 
-import C1 from "../../../public/achievements/berkeleyclass.jpeg";
-import C2 from "../../../public/achievements/berkeleygate.jpeg";
-import C3 from "../../../public/achievements/9circuit.jpeg";
+import C1 from "../../../public/achievements/berkeleyclass.webp";
+import C2 from "../../../public/achievements/berkeleygate.webp";
+import C3 from "../../../public/achievements/9circuit.webp";
 
-import T1 from "../../../public/achievements/1731059753800.jpeg";
-import T2 from "../../../public/achievements/1731059784532.jpeg";
-import T3 from "../../../public/achievements/1731059768735.jpeg";
+import T1 from "../../../public/achievements/1731059753800.webp";
+import T2 from "../../../public/achievements/1731059784532.webp";
+import T3 from "../../../public/achievements/1731059768735.webp";
 import { Header } from "@/components/Header";
 
 export default function Page() {

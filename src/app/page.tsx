@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Headshot from "../../public/IMG_3344.jpeg";
-import ABA from "../../public/IMG_5859.jpeg";
-import Accenture from "../../public/IMG_6939.jpg";
-import Fintech from "../../public/1708689451154.jpg";
-import DevSoc from "../../public/1708676099763.jpg";
-import Fintech2 from "../../public/1708689483040.jpg";
+import Headshot from "../../public/IMG_3344.webp";
+import ABA from "../../public/IMG_5859.webp";
+import Accenture from "../../public/IMG_6939.webp";
+import Fintech from "../../public/1708689451154.webp";
+import DevSoc from "../../public/1708676099763.webp";
+import Fintech2 from "../../public/1708689483040.webp";
 import React, { Suspense } from "react";
-import { activities, findOutMore } from "@/app/data";
+import { findOutMore } from "@/app/data";
 import { Header } from "@/components/Header";
 
 interface StyledLinkProps {
