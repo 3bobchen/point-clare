@@ -26,7 +26,7 @@ export default function Page() {
     <main className="flex min-h-screen flex-col max-w-3xl m-auto">
       <Header current="highlights" />
 
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 py-3">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
           US Legal Systems Overseas Elective
         </h2>
@@ -59,7 +59,7 @@ export default function Page() {
             />
           </div>
         </div>
-        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
+        <div className="flex md:px-0 columns-2 sm:columns-2 justify-center gap-8 sm:gap-32">
           <Image
             alt=""
             height={60}
@@ -81,7 +81,7 @@ export default function Page() {
 
       <br />
       <br />
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 py-3">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
           Techspire
         </h2>
@@ -114,7 +114,7 @@ export default function Page() {
             />
           </div>
         </div>
-        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
+        <div className="flex md:px-0 columns-2 sm:columns-2 justify-center gap-8 sm:gap-32">
           <Image
             alt=""
             height={70}
@@ -144,7 +144,7 @@ export default function Page() {
 
       <br />
       <br />
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 py-3">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
           Named Legal Entity Parsing & The ABA Conference
         </h2>
@@ -177,7 +177,7 @@ export default function Page() {
             />
           </div>
         </div>
-        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
+        <div className="flex md:px-0 columns-2 sm:columns-2 justify-center gap-8 sm:gap-32">
           <Image
             alt=""
             height={100}
@@ -199,7 +199,7 @@ export default function Page() {
 
       <br />
       <br />
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 py-3">
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 py-3">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">Algothon</h2>
         <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
           <div className="relative h-44 mb-8">
@@ -230,7 +230,7 @@ export default function Page() {
             />
           </div>
         </div>
-        <div className="flex px-6 md:px-0 columns-2 sm:columns-2 justify-center gap-32">
+        <div className="flex md:px-0 columns-2 sm:columns-2 justify-center gap-8 sm:gap-32">
           <Image
             alt=""
             height={100}

@@ -72,14 +72,16 @@ export default function Page() {
       <h3 className="pr-6 md:pr-0 flex justify-end mt-5">
         {data.length} countries and counting
       </h3>
-      <WorldMap
-        color="black"
-        value-suffix="people"
-        size="responsive"
-        data={data}
-        backgroundColor="transparent"
-      />
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+      <div className="flex justify-center">
+        <WorldMap
+          color="black"
+          value-suffix="people"
+          size="lg"
+          data={data}
+          backgroundColor="transparent"
+        />
+      </div>
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 mt-6">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2025</h2>
         <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
           <div className="relative h-40 mb-4">
@@ -138,7 +140,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 mt-6">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2024</h2>
         <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
           <div className="relative h-40 mb-4">
@@ -197,7 +199,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 mt-6">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2023</h2>
         <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
           <div className="relative h-40 mb-4">
@@ -256,7 +258,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="rounded-xl border border-gray-200/30 bg-white backdrop-blur-lg shadow-lg px-6 mt-6">
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 mt-6">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">2022</h2>
         <div className="px-6 md:px-0 columns-2 sm:columns-3 gap-4 my-8">
           <div className="relative h-40 mb-4">
