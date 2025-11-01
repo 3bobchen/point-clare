@@ -19,6 +19,11 @@ import C3 from "../../../public/achievements/9circuit.webp";
 import T1 from "../../../public/achievements/1731059753800.webp";
 import T2 from "../../../public/achievements/1731059784532.webp";
 import T3 from "../../../public/achievements/1731059768735.webp";
+
+import BT1 from "../../../public/achievements/IMG_5775.webp";
+import BT2 from "../../../public/achievements/IMG_5861.webp";
+import BT3 from "../../../public/achievements/IMG_6316.webp";
+
 import { Header } from "@/components/Header";
 
 export default function Page() {
@@ -26,6 +31,61 @@ export default function Page() {
     <main className="flex min-h-screen flex-col max-w-3xl m-auto">
       <Header current="highlights" />
 
+      <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 py-3">
+        <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
+          China International and Economic Law
+        </h2>
+        <div className="px-6 md:px-0 columns-2 sm:columns-2 my-7">
+          <div className="relative h-44 mb-8">
+            <Image
+              alt=""
+              src={BT3}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-44">
+            <Image
+              alt=""
+              src={BT2}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              alt=""
+              src={BT1}
+              fill
+              priority
+              className="rounded-lg object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex md:px-0 columns-2 sm:columns-2 justify-center gap-8 sm:gap-32">
+          <Image
+            alt=""
+            height={60}
+            width={100}
+            src="https://universitiesaustralia.edu.au/wp-content/uploads/2019/05/UNSW-1-300x300.png"
+            priority
+            className="rounded-lg object-cover"
+          />
+          <Image
+            alt=""
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tsinghua_University_Logo.svg/1200px-Tsinghua_University_Logo.svg.png"
+            height={50}
+            width={100}
+            priority
+            className="rounded-lg object-cover"
+          />
+        </div>
+      </div>
+
+      <br />
+      <br />
       <div className="sm:rounded-xl sm:border sm:border-gray-200/30 sm:bg-white sm:backdrop-blur-lg sm:shadow-lg px-6 py-3">
         <h2 className="px-6 md:px-0 w-full text-xl pt-3 font-bold">
           US Legal Systems Overseas Elective

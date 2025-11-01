@@ -3,7 +3,7 @@
 import React from "react";
 import WorldMap from "react-svg-worldmap";
 import Image from "next/image";
-import Passport25 from "../../../public/travel/25/4A92A6D7-03AE-472F-9B85-85BC9F23B365.webp";
+import Passport25 from "../../../public/travel/25/img.webp";
 import Passport24 from "../../../public/travel/24/PNG image-6E5DD4BB2B59-1.webp";
 import Passport23 from "../../../public/travel/23/PNG image-717E1F5654EB-1.webp";
 import Passport22 from "../../../public/travel/22/PNG image-292DE0EB7A4B-1.webp";
@@ -30,7 +30,8 @@ import Giza from "../../../public/travel/25/giza.webp";
 import Istanbul from "../../../public/travel/25/istanbul.webp";
 import Kuala from "../../../public/travel/25/kuala.webp";
 import Saudi from "../../../public/travel/25/saudi.webp";
-import Plane from "../../../public/travel/25/plane.webp";
+import Beijing from "../../../public/travel/25/08EE8359-9F0D-40B7-8A5B-33EFAEAC56B4_1_105_c.webp";
+
 import { Header } from "@/components/Header";
 
 export default function Page() {
@@ -96,7 +97,7 @@ export default function Page() {
           <div className="relative h-80 mb-4 sm:mb-0">
             <Image
               alt="Plane"
-              src={Plane}
+              src={Beijing}
               fill
               priority
               className="rounded-lg object-cover object-[-16px] sm:object-center"

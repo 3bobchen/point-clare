@@ -254,10 +254,9 @@ export default function Home() {
               <a href="https://en.wikipedia.org/wiki/Volt_Bank">
                 <Image
                   alt=""
-                  src="https://image.pitchbook.com/EcZMyz60tWXYxki8OyLtLcEouhA1579600932526_200x200"
+                  src="https://www.bankingday.com/uploads/2022/Q3/Volt-logo-August2022.png"
                   width={80}
                   height={0}
-                  className="rounded-lg"
                 />
               </a>
             </div>
