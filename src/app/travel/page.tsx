@@ -4,7 +4,7 @@ import React from "react";
 import WorldMap from "react-svg-worldmap";
 import Image from "next/image";
 import Passport25 from "../../../public/travel/25/img.webp";
-import Passport24 from "../../../public/travel/24/PNG image-6E5DD4BB2B59-1.webp";
+import Passport24 from "../../../public/travel/24/img.webp";
 import Passport23 from "../../../public/travel/23/PNG image-717E1F5654EB-1.webp";
 import Passport22 from "../../../public/travel/22/PNG image-292DE0EB7A4B-1.webp";
 
